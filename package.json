@@ -1,0 +1,29 @@
+{
+  "name": "sumup-aish0o",
+  "version": "3.0.1",
+  "description": "A CLI Calculator for daily calculations.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "sumup-aish0o": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "calculator",
+    "sumup",
+    "node",
+    "typescript",
+    "js"
+  ],
+  "author": "Aqsa Qazi (GD-aish0o)",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.22"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
