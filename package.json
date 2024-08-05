@@ -2,10 +2,10 @@
   "name": "sumup-aish0o",
   "version": "3.0.1",
   "description": "A CLI Calculator for daily calculations.",
-  "main": "index.js",
+  "main": "inndex.js",
   "type": "module",
   "bin": {
-    "sumup-aish0o": "index.js"
+    "sumup-aish0o": "inndex.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
