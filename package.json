@@ -1,10 +1,10 @@
 {
   "name": "sumup-aish0o",
-  "version": "2.4.1",
+  "version": "2.4.0",
   "description": "This version now enables user to calculate percentage",
   "type": "module",
   "bin": "index.js",
-  "main": "/index.js",
+  "main": "index.js",
   "dependencies": {
     "@types/inquirer": "^9.0.7"
   },
@@ -15,5 +15,5 @@
     "h"
   ],
   "author": "Aqsa Qazi (GD-aish0o)",
-  "license": "ISC"
+  "license": "MIT"
 }
