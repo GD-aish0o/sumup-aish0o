@@ -1,6 +1,6 @@
 {
   "name": "sumup-aish0o",
-  "version": "2.4.0",
+  "version": "2.4.2",
   "description": "This version now enables user to calculate percentage",
   "type": "module",
   "bin": "index.js",
