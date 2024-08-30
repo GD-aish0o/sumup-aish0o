@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// shebang
+// dep
 import inquirer from "inquirer";
 // these variables store user input:
 let amOne = await inquirer.prompt({
@@ -30,6 +32,8 @@ else {
         type: "number",
         message: "Please enter another amount.",
     });
+    //  
+    // data type ==DT
     // This if checks if the 2nd DT is valid:
     if (isNaN(amTwo.SecondAmount)) {
         console.error("This SumUp-App can only calculate Numbers.!");

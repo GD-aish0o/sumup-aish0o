@@ -1,15 +1,22 @@
 #!/usr/bin/env node
 
+
+// shebang
+ 
+
+
+// dep
 import inquirer from "inquirer";
 
 // these variables store user input:
+
+
 
 let amOne = await inquirer.prompt({
   name: "firstAmount",
   type: "number",
   message: "Please enter a digit or two ;)",
 });
-
 // conditions:
 
 // checks if the provided DT is correct.
@@ -39,6 +46,10 @@ if (isNaN(amOne.firstAmount)) {
     message: "Please enter another amount.",
   });
 
+
+//  
+
+  // data type ==DT
   // This if checks if the 2nd DT is valid:
 
   if (isNaN(amTwo.SecondAmount)) {
